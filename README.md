@@ -40,3 +40,11 @@ Move your profiles.yml file to the data_tests folder:
 ```bash
 mv ~/.dbt/profiles.yml data_tests/
 ```
+
+
+## Developer notes
+
+### VSCode extensions
+
+- [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
+- [DuckDB Driver for SQLTools](https://marketplace.visualstudio.com/items?itemName=Evidence.sqltools-duckdb-driver)

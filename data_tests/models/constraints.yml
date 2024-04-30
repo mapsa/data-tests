@@ -1,0 +1,28 @@
+
+version: 2
+
+models:
+  - name: sale_invoices
+    description: "Sales invoices"
+    columns:
+      - name: invoice_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: contact_id
+        description: "Contact ID"
+        tests:
+          - relationships:
+              to: ref('contacts')
+              field: contact_id
+          - not_null
+
+  - name: purchase_invoices
+    description: "Purchase invoices"
+    columns:
+      - name: invoice_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

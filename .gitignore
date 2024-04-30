@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+.vscode
+data_tests/data.duckdb
 .DS_Store
 __pycache__/
 *.py[cod]

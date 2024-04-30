@@ -2,12 +2,7 @@ data_tests:
   outputs:
     dev:
       type: duckdb
-      path: dev.duckdb
-      threads: 4
-
-    prod:
-      type: duckdb
-      path: prod.duckdb
+      path: data.duckdb
       threads: 4
 
   target: dev

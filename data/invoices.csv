@@ -1,4 +1,4 @@
-business_id,contact_id,invoice_id,type,date,due_date,currency,amount,amount_outstanding,tax_amount,payment_status,count_paments,first_payment_date,last_payment_date
+business_id,contact_id,invoice_id,invoice_type,invoice_date,due_date,currency,amount,amount_outstanding,tax_amount,payment_status,count_paments,first_payment_date,last_payment_date
 "4389e0bc56d1682d0daed6501c581afc5f28adef13f66283615ceea77e92a0cb",14,"46","PURCHASE",2021-06-30,2021-07-20,"EUR",32727.19,27658.82,2964.84,"PART PAID",4,2021-08-08,2021-09-16
 "0be06b57d61720a78ef32edabeee0241929424811bb84f6d03666ee426c36652",24,"174","SALE",2024-01-13,2024-02-12,"EUR",33692.22,23454.14,4287.91,"UNPAID",10,2024-01-22,2024-01-31
 "5c63a33a256eb5e56264fee91ad51140072e7547507c1f23c5996d8e5d5b0242",1,"321","SALE",2023-05-27,2023-06-16,"GBP",132871.52,41268.43,7204.75,"PAID",0,2023-06-20,2023-07-14

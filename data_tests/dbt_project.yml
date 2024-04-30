@@ -22,6 +22,7 @@ snapshot-paths: ["snapshots"]
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
+  - "logs"
 
 
 # Configuring models
@@ -33,5 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   data_tests:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    contacts:
+      +materialized: table
+    invoices:
+      +materialized: table
